@@ -1,5 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+     <head>
+     <title>Duel All Day</title>
+     <title>Privacy Policy</title>
+     <meta charset="utf-8">
+     <meta name = "format-detection" content = "telephone=no" />
+     <link rel="icon" href="images/favicon.ico">
+     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/style.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/script.js"></script>
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.ui.totop.js"></script>
+     <script src="js/jquery.equalheights.js"></script>
+     <script src="js/jquery.mobilemenu.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/jquery.horizontalNav.js"></script>
+     <script>
+
+
+      $(window).load(function() {
+      $('.full-width').horizontalNav({});
+     });
+
+    $(document).ready(function(){
+      $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+
+    $(window).load(function() {
+      $( ".lang" ).click(function() {
+        $( ".drop" ).slideToggle( "slow" );
+      });
+    });
+     </script>
+
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title><%= @title || "DuelAllDay" %></title>
@@ -11,27 +47,250 @@
 <body>
   <div id="wrap">
     <header>
+
+    <div class="container_12">
+
+    <div class="grid_12">
+  <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Your Happy Family">
+          </a>
+        </h1>
+        <div class="info">
+          24/7 support  <span class="col1">1 800 345 67 89</span><a href="#">live chat</a><div class="lang">En <ul class="drop">
+              <li class="current"><a href="#">English</a></li>
+              <li><a href="#">Français</a> </li>
+              <li><a href="#">Español</a> </li>
+              <li><a href="#">Deutsch </a></li>
+          </ul></div>
+        </div>
+        <div class="clear"></div>
+      <div class="menu_block mb0">
+
+          <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+              <ul class="sf-menu">
+                     <li><a href="index.html">main</a></li>
+                     <li><a href="index-1.html">download casino </a></li>
+                     <li class="current"><a href="index-2.html">games </a>
+                     <ul>
+                          <li><a href="#">card games</a></li>
+                          <li><a href="#">video slots</a></li>
+                          <li><a href="#">roulette</a></li>
+                       </ul>
+                     </li>
+                     <li><a href="index-3.html">banking</a></li>
+                     <li><a href="index-4.html">tournaments</a></li>
+                     <li><a href="index-5.html">contacts</a></li>
+                   </ul>
+                </nav>
+
+              <div class="clear"></div>
+    </div>
+
+      </div>
+    </div>
       <%= render 'layouts/navigation' %>
-    </header>
-      
+
+
     <div class="container">
-       
+
       <div class="row">
         <div class="col-sm-6 col-sm-offset-3 text-center">
           <%= render 'layouts/messages' %>
         </div>
       </div>
-      
+
       <div class="row">
         <div class="col-sm-12">
           <%= yield %>
-        </div>     
-      </div>  
-      
+        </div>
+      </div>
+
     </div>
   </div>
-    
-  <%= render 'layouts/footer' %>    
 
+  <%= render 'layouts/footer' %>
+
+  <div class="top_block"><div class="cash">
+    <div class="container_12">
+
+      <div class="grid_7 prefix_5">
+        <div class="title">100% BONUS UP TO <div class="col1">$1000</div></div>
+        <span class="tt"><span class="span col1">STEP 1</span> <span class="col2">DOWNLOAD AND INSTALL</span>(ADIPISCINRIS VEL TORTOR)</span>
+        <span class="tt"><span class="span col1">STEP 2</span> <span class="col2">REGISTER</span>(ELIT MAURIS VEL  MENTUM AUCTOR)</span>
+        <span class="tt"><span class="span col1">STEP 3</span> <span class="col2">DEPOSIT AND RECEIVE YOUR 100% BONUS</span>(VITAE NIBH COND)</span>
+        <a href="#" class="btn">download now</a>
+       </div>
+      </div>
+    </div>
+  </div>
+
+<div class="content">
+  <div class="container_12">
+    <div class="grid_8">
+      <h3>Most Popular Casino Games</h3>
+      <div class="game">
+        <div class="box fl">
+          <img src="images/page3_img1.jpg" alt="">
+          <a href="#">Praesent Vestibulum Molestie</a>
+          <div class="stars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="gray"></span>
+          </div>
+        </div>
+        <div class="extra_wrapper">
+          <div class="text1"><a href="#">Praesent Vestibulum Molestie</a></div>Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Praesent faucibus rutrum odio at rhoncus. Pellentesque vitae tortor id neque fermentum pretium. Maecenas ac lacus ut neque rhoncus laoreet sed id tellus. Donec justo tellus, tincidunt vitae pellent
+          <br>
+          <a href="#" class="btn">play now!</a>
+          <a href="#" class="btn">read rules</a>
+        </div>
+      </div>
+      <div class="game">
+        <div class="box fl">
+          <img src="images/page3_img2.jpg" alt="">
+          <a href="#">Etiam Cursus Leo Vel Metus</a>
+          <div class="stars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="gray"></span>
+          </div>
+        </div>
+        <div class="extra_wrapper">
+          <div class="text1"><a href="#">Etiam Cursus Leo Vel Metus</a></div>Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Praesent faucibus rutrum odio at rhoncus. Pellentesque vitae tortor id neque fermentum pretium. Maecenas ac lacus ut neque rhoncus laoreet sed id tellus. Donec justo tellus, tincidunt vitae pellent
+          <br>
+          <a href="#" class="btn">play now!</a>
+          <a href="#" class="btn">read rules</a>
+        </div>
+      </div>
+      <div class="game">
+        <div class="box fl">
+          <img src="images/page3_img3.jpg" alt="">
+          <a href="#">Vestibulum Ante Ipsum Primis</a>
+          <div class="stars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="gray"></span>
+          </div>
+        </div>
+        <div class="extra_wrapper">
+          <div class="text1"><a href="#">Vestibulum Ante Ipsum Primis</a></div>Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Praesent faucibus rutrum odio at rhoncus. Pellentesque vitae tortor id neque fermentum pretium. Maecenas ac lacus ut neque rhoncus laoreet sed id tellus. Donec justo tellus, tincidunt vitae pellent
+          <br>
+          <a href="#" class="btn">play now!</a>
+          <a href="#" class="btn">read rules</a>
+        </div>
+      </div>
+      <div class="game">
+        <div class="box fl">
+          <img src="images/page3_img4.jpg" alt="">
+          <a href="#">Ultrices Posuere Cubilia Curae</a>
+          <div class="stars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="gray"></span>
+          </div>
+        </div>
+        <div class="extra_wrapper">
+          <div class="text1"><a href="#">Ultrices Posuere Cubilia Curae</a></div>Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Praesent faucibus rutrum odio at rhoncus. Pellentesque vitae tortor id neque fermentum pretium. Maecenas ac lacus ut neque rhoncus laoreet sed id tellus. Donec justo tellus, tincidunt vitae pellent
+          <br>
+          <a href="#" class="btn">play now!</a>
+          <a href="#" class="btn">read rules</a>
+        </div>
+      </div>
+      <div class="game">
+        <div class="box fl">
+          <img src="images/page3_img5.jpg" alt="">
+          <a href="#">Donec Porta Diam Eu Massa</a>
+          <div class="stars">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="gray"></span>
+          </div>
+        </div>
+        <div class="extra_wrapper">
+          <div class="text1"><a href="#">Donec Porta Diam Eu Massa</a></div>Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium, placerat eget elit. Praesent faucibus rutrum odio at rhoncus. Pellentesque vitae tortor id neque fermentum pretium. Maecenas ac lacus ut neque rhoncus laoreet sed id tellus. Donec justo tellus, tincidunt vitae pellent
+          <br>
+          <a href="#" class="btn">play now!</a>
+          <a href="#" class="btn">read rules</a>
+        </div>
+      </div>
+    </div>
+    <div class="grid_4 ">
+    <div class="down">
+      <h3 class="col1">How to Get Started</h3>
+      <ul>
+        <li><a href="#">download the casino</a></li>
+        <li><a href="#">signup for real money play</a></li>
+        <li><a href="#">deposit and collect your bonus!</a></li>
+      </ul>
+      <h3 class="col1">100% up to $1,000</h3>
+      <a href="#">Download Casino <span>$ 777 welcome bonus!</span></a>
+      </div>
+      <h3>Big Cash Prizes!</h3>
+      <div class="text1">Play in any of our weekly guaranteed
+tournaments and you could win up to
+$1,500 cash!</div>That’s not all, participate in our massive monthly
+tournament and you will have a chance to win big!
+      <div class="col1 un"><a href="#" class="link1">View the Tournament Calendar.</a></div>
+      <h3>Need Help?</h3>
+      <div class="text1">
+        If you need help getting starting please
+contact our <span class="col1"><a href="#">customer support</a></span> or you can
+read our <span class="col1"><a href="#">Frequently asked questions </a></span>
+      </div>
+      <a href="#" class="inst">
+        Instant Play
+        <span>no download required</span>
+      </a>
+      <head>Live Chat</head>
+      <script type="text/javascript" src="http://www3.smartchatbox.com/shoutbox/start.php?key=752186135"></script>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+<footer>
+  <div class="container_12">
+    <div class="grid_12">
+    <ul>
+      <li><strong><a href="#">About Us</a></strong></li>
+      <li><strong><a href="#">Responsible </a></strong></li>
+      <li><strong><a href="#">Gaming </a></strong></li>
+      <li><strong><a href="#">Security &amp; Privacy</a></strong></li>
+      <li><strong><a href="#">Fair Play </a></strong></li>
+      <li><strong><a href="#">User Agreement</a></strong></li>
+      <li><strong><a href="#">Affiliates</a></strong></li>
+      <li><strong><a href="#">News</a></strong></li>
+      <li><strong><a href="#">Help</a></strong></li>
+      <li><strong><a href="#">Site Map</a></strong></li>
+    </ul>
+    <p>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec,
+luctus a, lorem. Maecenas tristique orci ac sem. </p>
+    <div class="pay">
+      <a href="#"><img src="images/pay1.png" alt=""></a>
+      <a href="#"><img src="images/pay2.png" alt=""></a>
+      <a href="#"><img src="images/pay3.png" alt=""></a>
+      <a href="#"><img src="images/pay4.png" alt=""></a>
+    </div>
+    <div class="copy">
+     JackpotCity &copy; 2013 / <a href="index-6.html">Privacy policy</a></div>
+
+    </div>
+  </div>
+
+</footer>
 </body>
 </html>

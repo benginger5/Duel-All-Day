@@ -9,6 +9,8 @@ gem 'turbolinks', '2.3.0'
 gem 'jbuilder', '2.1.3'
 gem 'bcrypt', '3.1.7'
 gem 'juggernaut', '2.1.1'
+gem 'sprockets', '2.11.0'
+gem 'faye', '1.0.3'
 
 group :doc do
   gem 'sdoc', require: false
